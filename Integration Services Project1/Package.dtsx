@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="30"
-  DTS:VersionGUID="{C95345A9-E57E-4ED9-A961-094A142BCD46}">
+  DTS:VersionBuild="31"
+  DTS:VersionGUID="{ADBA843A-69C1-44BE-9AA6-20BAA0A793AB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -952,24 +952,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           version="1" />
       </DTS:ObjectData>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Tamaño articulo es menor"
-      DTS:CreationName="Microsoft.ScriptTask"
-      DTS:Description="Script Task"
-      DTS:DTSID="{ae31e595-c839-4327-8ec7-07763b0e91de}"
-      DTS:ExecutableType="Microsoft.ScriptTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Tamaño articulo es menor"
-      DTS:ThreadHint="1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <ScriptProject
-          Name="ST_94ec7aa00005479c8b38eb9c5cec7918"
-          VSTAMajorVersion="15"
-          VSTAMinorVersion="0"
-          Language="CSharp" />
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -1506,10 +1488,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="156,42.6666666666667"
           Id="Package\Tamano articulo"
           TopLeft="655.208323569968,412.749992619455" />
-        <NodeLayout
-          Size="202.666666666667,42.6666666666667"
-          Id="Package\Tamaño articulo es menor"
-          TopLeft="1047.91665105149,680.333321168025" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
           TopLeft="734.604161784984,340">
